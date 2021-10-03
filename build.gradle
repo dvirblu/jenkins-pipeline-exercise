@@ -13,8 +13,8 @@ tasks.withType(JavaCompile) {
 }
 
 repositories {
-    maven { url 'http://repo1.maven.org/maven2' }
-    jcenter { url "http://jcenter.bintray.com/" }
+    maven { url 'https://repo1.maven.org/maven2' }
+    #jcenter { url "http://jcenter.bintray.com/" }
 }
 dependencies {
     testCompile group: 'junit', name: 'junit', version:'4.12'
